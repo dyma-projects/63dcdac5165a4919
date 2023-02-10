@@ -3,13 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-exercice2',
   templateUrl: './exercice2.component.html',
-  styleUrls: ['./exercice2.component.css']
+  styleUrls: ['./exercice2.component.css'],
 })
 export class Exercice2Component implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
+  public ex2Click(): void {
+    console.log('click');
   }
 
+  ngOnInit() {}
 }
